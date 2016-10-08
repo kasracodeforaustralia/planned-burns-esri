@@ -1,0 +1,131 @@
+/*DELWP logo inner div - mobile and tablets*/
+#DELWP-logo-sm-xs{
+	padding-top:1px;
+	width: 100px;
+	height:28px;
+	border-radius: 2px;
+}
+/*Logo bar - First row - First col*/
+#LB-1-row-1-col{
+	padding-left: 0px;
+}
+/*Logo bar - First row - last col*/
+#LB-1-row-3-col{
+	//padding-right: 0px;
+}
+
+#shareBtn-logo-sm-xs{
+	width: 28px;
+	height:28px;
+	//padding-right:0px;
+}
+
+/* Share button - mobile/tablets*/
+.shareBtn{
+		float: right;
+		max-width: 42px;
+		max-height: 42px;
+		padding-top: 0px;		
+}
+
+/* -----------Toggle-Menu-button which will be only appeared in Mobiles/tablets----------*/
+
+#cpBtn{
+	position: relative;
+	float: right;
+	right: 1px;
+	width: 36px;
+	height: 30px;
+	background: linear-gradient(#FFF,#DDD);
+	border: #AAA 1px solid;
+	border-radius: 2px;
+	padding: 2px 7px;
+	cursor: pointer;
+	transition: border 0.3s linear 0s;
+}
+
+#cpBtn > div{
+	width: 20px;
+	height: 4px;
+	background: #333;
+	margin: 3px 0px;
+	border-radius: 4px;
+	transition: background 0.3s linear 0s;
+}
+#cp{
+	position: fixed;
+	display:none;
+	//right: -260;
+	top: 30px;
+	width: 200px;
+	height: 200px;
+	background: #DDD;
+	opacity: 0;
+	transition: opacity 0.3s linear 0s, right 0s linear 0s;
+	border-radius= 25px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+/************************************ */
+
+#listOfBurns-m{
+	display:none;
+}
+
+/*Popup window for filter button ------------------------------------------ */
+/* The Modal (background) */
+.popup-m {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content  */
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+	border-radius: 5px;
+}
+
+/* The Close Button */
+.closePopup {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closePopup:hover,
+.closePopup:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Popup window for filter button ------------------END------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
